@@ -1,0 +1,33 @@
+{
+  "server": {
+    "port": 3301,
+    "hostname": "get5vs5.duckdns.org",
+    "dbKey": "36e0c7b4ab5210a43a4bc3f15f1ff38b",
+    "steamAPIKey": "API Key For Steam Calls.",
+    "sharedSecret": "25081833716930151220132322024517211421481",
+    "clientHome": "http://localhost:3001",
+    "useRedis": true,
+    "apiURL": "https://g5api-3t86.onrender.com",
+    "uploadDemos": false,
+    "localLoginEnabled": true,
+    "redisUrl": "redis://:super_secure@localhost:6379",
+    "redisTTL": 86400
+  },
+  "production": {
+    "driver": "mysql",
+    "user": "sql7818141",
+    "password": "ys2ZWj1inp",
+    "database": "sql7818141",
+    "multipleStatements": true,
+    "flags": { "ENV": "MYSQL_FLAGS" },
+    "host": "sql7.freesqldatabase.com",
+    "port": 3306,
+    "connectionLimit": 15
+  },
+  "admins": {
+    "steam_ids": "76561199381225305"
+  },
+  "super_admins": {
+    "steam_ids": "76561199381225305"
+  }
+}
